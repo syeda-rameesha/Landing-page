@@ -1,6 +1,6 @@
 import React from "react";
 import "./App.css";
-
+import ContactForm from "./ContactForm";
 function App() {
   return (
     <div className="page">
@@ -104,6 +104,9 @@ function App() {
           </div>
         </div>
       </section>
+
+      {/* CONTACT SECTION */}
+      <ContactForm />
 
       {/* FOOTER */}
       <footer className="footer">
